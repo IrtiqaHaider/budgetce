@@ -1,0 +1,18 @@
+{
+  "author": "Irtiqa Haider",
+  "date": "2026-09-23",
+  "cpu_test_count": 48,
+  "cpu_tests_passed": true,
+  "cpu_test_log": "................................................                         [100%]\n48 passed in 2.55s",
+  "package_test_environment": {
+    "python": "3.13.5",
+    "torch": "2.10.0+cpu",
+    "cuda_available": false
+  },
+  "offline_checks_passed": 64,
+  "notebook_schema_and_python_syntax": "passed",
+  "pdf_pages": 8,
+  "pdf_author": "Irtiqa Haider",
+  "pdf_layout": "Eight pages rendered and visually reviewed; title re-rendered after final edit. No overfull boxes or undefined references.",
+  "scope": "No new CUDA compilation, GPU run, GitHub push, or GitHub Actions execution performed during packaging."
+}

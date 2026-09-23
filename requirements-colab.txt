@@ -1,0 +1,7 @@
+# Keep the runtime's installed CUDA-enabled torch. Never install torch from this file.
+numpy>=1.26,<3
+pandas>=2,<4
+matplotlib>=3.8,<4
+ninja>=1.11,<2
+pytest>=8,<10
+nvidia-ml-py>=12,<14

@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+*.so
+*.o
+*.egg-info/
+build/
+runs/
+reanalysis/
+.cache/
+.DS_Store
+*.tmp

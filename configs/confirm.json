@@ -1,0 +1,92 @@
+{
+  "budgets_mib": [
+    384,
+    768
+  ],
+  "calibration_shapes": [
+    {
+      "d": 512,
+      "n": 256,
+      "v": 32768
+    },
+    {
+      "d": 512,
+      "n": 256,
+      "v": 65536
+    },
+    {
+      "d": 512,
+      "n": 1024,
+      "v": 32768
+    },
+    {
+      "d": 512,
+      "n": 1024,
+      "v": 65536
+    }
+  ],
+  "chunks": [
+    64,
+    256,
+    1024
+  ],
+  "compute_dtype": "float16",
+  "evaluation_shapes": [
+    {
+      "d": 512,
+      "n": 512,
+      "v": 32768
+    },
+    {
+      "d": 512,
+      "n": 512,
+      "v": 65536
+    },
+    {
+      "d": 512,
+      "n": 2048,
+      "v": 32768
+    },
+    {
+      "d": 512,
+      "n": 2048,
+      "v": 65536
+    },
+    {
+      "d": 512,
+      "n": 4096,
+      "v": 32768
+    },
+    {
+      "d": 512,
+      "n": 4096,
+      "v": 65536
+    }
+  ],
+  "iterations": 3,
+  "learning_rate": 0.001,
+  "loss_scale": 128.0,
+  "operator_selection_budget_mib": 384,
+  "optimizer": "AdamW",
+  "planner_memory_margin": 1.15,
+  "profile": "confirm",
+  "repeats": 3,
+  "run_profiler": false,
+  "seed": 20260923,
+  "torch_chunk": 256,
+  "training_accumulation": 2,
+  "training_batch": 1,
+  "training_budget_fraction": 0.85,
+  "training_d": 256,
+  "training_heads": 4,
+  "training_layers": 4,
+  "training_repeats": 3,
+  "training_sequences": [
+    512,
+    1024
+  ],
+  "training_updates": 10,
+  "training_vocab": 32768,
+  "training_warmup": 2,
+  "warmup": 1
+}

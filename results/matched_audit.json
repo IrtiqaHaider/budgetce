@@ -1,0 +1,26 @@
+{
+  "archive_sha256": "fb1469c315455990f7114074de107dd9ea0fb909d064cc7ddd094f4fafff2ff8",
+  "checks_total": 27,
+  "checks_passed": 27,
+  "all_checks_passed": true,
+  "source_sha256": "858c1389d6b334900d7ed06a232e0b4d4a5b94993bb64fa66583638246b4f8e0",
+  "measured_trials": 9,
+  "measured_updates": 900,
+  "actual_optimizer_updates": 1080,
+  "measured_tokens": 1843200,
+  "timed_seconds": 45.66843104299983,
+  "timed_block_range_s": [
+    4.3737514179999835,
+    5.810727799999995
+  ],
+  "max_preflight_gradient_error": 7.831987265786067e-06,
+  "max_loss_trajectory_difference": 0.021989822387695312,
+  "metrics": {
+    "cuda_throughput_vs_native": 1.14815444178033,
+    "cuda_throughput_vs_torch1024": 1.316186251120677,
+    "cuda_time_reduction_vs_native": 0.12903703229210306,
+    "cuda_memory_reduction_vs_native": 0.32269988212782774,
+    "cuda_memory_reduction_vs_torch1024": 0.29635632217173613
+  },
+  "scope": "Offline integrity, arithmetic and recorded tolerance checks; not an independent GPU rerun. Initial and matched trials are not pooled."
+}

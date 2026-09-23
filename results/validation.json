@@ -1,0 +1,92 @@
+{
+  "initial": {
+    "archive_name": "initial-study.zip",
+    "archive_sha256": "b76dc9c7eb20b5c13519062438fe8bef155f89d6f067509c79e7d6f8da2b7692",
+    "source_sha256": "858c1389d6b334900d7ed06a232e0b4d4a5b94993bb64fa66583638246b4f8e0",
+    "checks_passed": 37,
+    "checks_total": 37,
+    "all_checks_passed": true,
+    "counts": {
+      "calibration": 20,
+      "evaluation": 90,
+      "training": 18
+    },
+    "measured_training_updates": 180,
+    "measured_training_tokens": 276480,
+    "source_gpu_tests": 21,
+    "max_reported_gradient_relative_error": 0.0002928145140499652,
+    "operator_paired_loss_max_abs": 3.814697265625e-06,
+    "training_parameter_count": 20189696,
+    "timed_seconds": {
+      "calibration": 0.90314381999994,
+      "evaluation": 12.970100433000027,
+      "training": 7.444965230999969
+    },
+    "timed_block_ranges": {
+      "calibration": [
+        0.009677832999983593,
+        0.17735813599998096
+      ],
+      "evaluation": [
+        0.015647718999986182,
+        0.632340978000002
+      ],
+      "training": [
+        0.25411004500000445,
+        0.65889777000001
+      ]
+    },
+    "selector_matches_largest": 12,
+    "selector_matches_hindsight": 12,
+    "selector_decisions": 12,
+    "calibration_cost_ms": 2582.313480999972,
+    "cost_model_rank": [
+      {
+        "plan": "cuda:1024",
+        "columns": 3,
+        "rank": 2
+      },
+      {
+        "plan": "cuda:256",
+        "columns": 3,
+        "rank": 3
+      },
+      {
+        "plan": "cuda:64",
+        "columns": 3,
+        "rank": 3
+      }
+    ],
+    "analysis_scope": "Offline verification of recorded evidence; no independent GPU execution. Metadata pairing is not a rehash of unavailable tensor values."
+  },
+  "matched_confirmation": {
+    "archive_sha256": "fb1469c315455990f7114074de107dd9ea0fb909d064cc7ddd094f4fafff2ff8",
+    "checks_total": 27,
+    "checks_passed": 27,
+    "all_checks_passed": true,
+    "source_sha256": "858c1389d6b334900d7ed06a232e0b4d4a5b94993bb64fa66583638246b4f8e0",
+    "measured_trials": 9,
+    "measured_updates": 900,
+    "actual_optimizer_updates": 1080,
+    "measured_tokens": 1843200,
+    "timed_seconds": 45.66843104299983,
+    "timed_block_range_s": [
+      4.3737514179999835,
+      5.810727799999995
+    ],
+    "max_preflight_gradient_error": 7.831987265786067e-06,
+    "max_loss_trajectory_difference": 0.021989822387695312,
+    "metrics": {
+      "cuda_throughput_vs_native": 1.14815444178033,
+      "cuda_throughput_vs_torch1024": 1.316186251120677,
+      "cuda_time_reduction_vs_native": 0.12903703229210306,
+      "cuda_memory_reduction_vs_native": 0.32269988212782774,
+      "cuda_memory_reduction_vs_torch1024": 0.29635632217173613
+    },
+    "scope": "Offline integrity, arithmetic and recorded tolerance checks; not an independent GPU rerun. Initial and matched trials are not pooled."
+  },
+  "scope": "Offline audit; no GPU benchmark executed.",
+  "all_checks_passed": true,
+  "checks_passed": 64,
+  "checks_total": 64
+}
